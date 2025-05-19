@@ -1,0 +1,15 @@
+# TYPE HINT (A feature useful with dynamic typing)
+we declare the data types of variables, functions return and classes and specify so that later on in code in will be helpful
+
+e.g:
+def func(name : str) -> str:
+    return "Hello" + name
+
+-> name : str  # is the data type declaration for variables 
+and if alter in code we write:
+    name = 123  # this will show error
+    name = ""  # only string is possible
+
+-> def func() -> str  # this means that the function will return a value of data type string
+
+    return "Hello" + name  # as this is a string
